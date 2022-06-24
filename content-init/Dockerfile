@@ -1,4 +1,5 @@
 # This is the base image that can be used
+# Testing
 FROM node:fermium AS build
 #This is the environment variable with connection to the MongoDB. Can be overriden in the docker run command with the -e switch
 ENV MONGODB_CONNECTION=mongodb://mongo:27017/contentdb
